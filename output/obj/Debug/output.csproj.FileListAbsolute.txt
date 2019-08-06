@@ -1,0 +1,10 @@
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\bin\Debug\output.exe.config
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\bin\Debug\output.exe
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\bin\Debug\output.pdb
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\bin\Debug\DataLayer.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\bin\Debug\DataLayer.pdb
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\obj\Debug\output.csprojResolveAssemblyReference.cache
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\obj\Debug\output.exe
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\obj\Debug\output.pdb
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\bin\Debug\RestSharp.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\output\bin\Debug\RestSharp.xml

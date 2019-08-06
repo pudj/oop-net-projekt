@@ -1,0 +1,13 @@
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\bin\Debug\FormsClient.exe.config
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\bin\Debug\FormsClient.exe
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\bin\Debug\FormsClient.pdb
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\bin\Debug\DataLayer.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\bin\Debug\RestSharp.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\bin\Debug\DataLayer.pdb
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\bin\Debug\RestSharp.xml
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\obj\Debug\FormsClient.csprojResolveAssemblyReference.cache
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\obj\Debug\FormsClient.Form1.resources
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\obj\Debug\FormsClient.Properties.Resources.resources
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\obj\Debug\FormsClient.csproj.GenerateResource.Cache
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\obj\Debug\FormsClient.exe
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\FormsClient\obj\Debug\FormsClient.pdb

@@ -1,0 +1,9 @@
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\bin\Debug\DataLayer.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\bin\Debug\DataLayer.pdb
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\obj\Debug\DataLayer.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\obj\Debug\DataLayer.pdb
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\bin\Debug\Newtonsoft.Json.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\bin\Debug\RestSharp.dll
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\bin\Debug\Newtonsoft.Json.xml
+d:\podaci\programer10\documents\visual studio 2017\Projects\oop-net-projekt\DataLayer\bin\Debug\RestSharp.xml
