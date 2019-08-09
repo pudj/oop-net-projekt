@@ -48,9 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GetResults.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="Service\GetResults.cs" />
     <Compile Include="Model\Result.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TxtFileRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

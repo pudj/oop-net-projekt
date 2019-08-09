@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace FormsClient
 {
     public partial class Form1 : Form
     {
+        IRepository txtrepo;
         public Form1()
         {
             InitializeComponent();
@@ -39,6 +41,24 @@ namespace FormsClient
         private void ResultBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void SaveTeam_Click(object sender, EventArgs e)
+        {
+           // List<string> results = new List<string>();
+           var selectedTeam = ResultBox.SelectedItem.ToString();
+            // foreach (var item in results)
+            // {
+            //     results.Add(selectedTeam);
+            // }
+            //  txtrepo.SaveData(results);
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "Results.txt")))
+            {
+                outputFile.WriteLine($"Naziv: { selectedTeam }");
+            }
+            MessageBox.Show("Podaci spremljeni u MyDocuments.");
+
         }
     }
 }
