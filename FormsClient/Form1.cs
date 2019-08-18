@@ -19,12 +19,12 @@ namespace FormsClient
         public Form1()
         {
             InitializeComponent();
+            backgroundWorker1.WorkerReportsProgress = true;
         }
 
-        private async void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            await GetDataTask();   
-
+            backgroundWorker1.RunWorkerAsync();
         }
 
         private Task GetDataTask() {
@@ -45,20 +45,22 @@ namespace FormsClient
 
         private void SaveTeam_Click(object sender, EventArgs e)
         {
-           // List<string> results = new List<string>();
-           var selectedTeam = ResultBox.SelectedItem.ToString();
-            // foreach (var item in results)
-            // {
-            //     results.Add(selectedTeam);
-            // }
-            //  txtrepo.SaveData(results);
-            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "Results.txt")))
-            {
-                outputFile.WriteLine($"Naziv: { selectedTeam }");
-            }
-            MessageBox.Show("Podaci spremljeni u MyDocuments.");
 
+        }
+
+        private async void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            await GetDataTask();
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            resultsLoadedLabel.Text = (e.ProgressPercentage.ToString() + "%");
+        }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            resultsLoadedLabel.Text = "Podaci učitani!";
         }
     }
 }

@@ -31,6 +31,8 @@
             this.ResultBox = new System.Windows.Forms.ComboBox();
             this.Naziv_Fifa = new System.Windows.Forms.Label();
             this.SaveTeam = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.resultsLoadedLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ResultBox
@@ -62,11 +64,26 @@
             this.SaveTeam.UseVisualStyleBackColor = true;
             this.SaveTeam.Click += new System.EventHandler(this.SaveTeam_Click);
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
+            // resultsLoadedLabel
+            // 
+            this.resultsLoadedLabel.AutoSize = true;
+            this.resultsLoadedLabel.Location = new System.Drawing.Point(17, 52);
+            this.resultsLoadedLabel.Name = "resultsLoadedLabel";
+            this.resultsLoadedLabel.Size = new System.Drawing.Size(0, 13);
+            this.resultsLoadedLabel.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.resultsLoadedLabel);
             this.Controls.Add(this.SaveTeam);
             this.Controls.Add(this.Naziv_Fifa);
             this.Controls.Add(this.ResultBox);
@@ -83,6 +100,8 @@
         private System.Windows.Forms.ComboBox ResultBox;
         private System.Windows.Forms.Label Naziv_Fifa;
         private System.Windows.Forms.Button SaveTeam;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label resultsLoadedLabel;
     }
 }
 
